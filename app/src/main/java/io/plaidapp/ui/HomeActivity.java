@@ -339,6 +339,9 @@ public class HomeActivity extends FragmentActivity {
                         getString(R.string.transition_search_back)).toBundle();
                 startActivityForResult(ActivityHelper.intentTo(Activities.Search.INSTANCE), RC_SEARCH, options);
                 return true;
+            case R.id.menu_theme:
+
+                return true;
             case R.id.menu_designer_news_login:
                 if (!loginRepository.isLoggedIn()) {
                     startActivity(ActivityHelper.intentTo(Activities.DesignerNews.Login.INSTANCE));
