@@ -18,7 +18,7 @@
 
 <resources>
 
-    <style name="Plaid" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Plaid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#69f0ae</item>
         <item name="colorPrimaryVariant">#2bbd7e</item>
         <item name="colorOnPrimary">#000000</item>
